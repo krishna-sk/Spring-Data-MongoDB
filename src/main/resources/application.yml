@@ -1,0 +1,13 @@
+spring:
+####### Mongo Properties ###########
+  data:
+    mongodb:
+    #   host: localhost
+    #   port: 27017
+    #   username: 
+    #   password:
+    #   database: expernse_tracker
+      uri: mongodb://localhost:27017/expense_tracker
+server:
+  servlet:
+    context-path: /api
